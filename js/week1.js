@@ -87,6 +87,6 @@ $(document).ready(function(){
 	slideArtcle();
   getArticle(0,4,"#munTextDiv")
 	getArticle(1,4,"#neiTextDiv")
-	getArticle(2,4,"#varTextDiv")
+	getArticle(2,5,"#varTextDiv")
 	getArticle(3,4,"#winTextDiv")
 });
