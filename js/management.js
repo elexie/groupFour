@@ -34,7 +34,8 @@ function getArticle(){
 		   $("#articleText").html(finalArticle);
 		   }
    }
-   xhttp.open("GET", "../json/projMang.json", true);
+	 xhttp.open("GET", "https://elexie.github.io/groupFour/json/projMang.json", true);
+//   xhttp.open("GET", "../json/projMang.json", true);
    xhttp.send();
 }
 
