@@ -317,3 +317,14 @@ iframe
 #varn1{
   background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/varn/img1.jpg");background-size: cover;
 }
+#win1{
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/win/img1.png");background-size: contain;
+}
+#mun1
+{
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/mun/img1.png");background-size: contain;
+}
+.link
+{
+  color: steelblue;
+}
