@@ -44,7 +44,7 @@ function getArticle(userNum,pgCount,articleDiv){
 		   }
    }
   	xhttp.open("GET", "https://elexie.github.io/groupFour/json/week1.json", true);
-//	 xhttp.open("GET", "../json/week1.json", true);
+	// xhttp.open("GET", "../json/week1.json", true);
    xhttp.send();
 }
 function slideArtcle()
@@ -85,8 +85,8 @@ function animateWidth(incomingSlide)
 
 $(document).ready(function(){
 	slideArtcle();
-  getArticle(0,6,"#munTextDiv")
+  getArticle(0,7,"#munTextDiv")
 	getArticle(1,9,"#neiTextDiv")
 	getArticle(2,6,"#varTextDiv")
-	getArticle(3,5,"#winTextDiv")
+	getArticle(3,6,"#winTextDiv")
 });
