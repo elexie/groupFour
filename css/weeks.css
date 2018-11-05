@@ -182,7 +182,6 @@ color: inherit;
 #bodyOverlay{
 	width:100%;
 	height:100%;
-	margin:0;
 	display:flex;
 	flex-direction:column;
 
@@ -309,29 +308,12 @@ iframe
   font-size: .8em;
 }
 #nei1{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image:url("../images/week1/nei/img1.jpg");
-  background-size: cover;
-  /*
-  style=\"background-image:url(\"../images/week1/nei/img1.jpg\"); background-position:center; background-size:cover; background-repeat:no-repeat;\"
-  */
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/nei/img1.jpg");background-size: cover;
+}#nei2{
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/nei/img2.jpg");  background-size: cover;
+}#nei3{
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/nei/img3.jpg");background-size: contain;
 }
-#nei2{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image:url("../images/week1/nei/img2.jpg");
-  background-size: cover;
-  /*
-  style=\"background-image:url(\"../images/week1/nei/img1.jpg\"); background-position:center; background-size:cover; background-repeat:no-repeat;\"
-  */
-}
-#nei3{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image:url("../images/week1/nei/img3.jpg");
-  background-size: contain;
-  /*
-  style=\"background-image:url(\"../images/week1/nei/img1.jpg\"); background-position:center; background-size:cover; background-repeat:no-repeat;\"
-  */
+#varn1{
+  background-repeat: no-repeat;background-position: center;background-image:url("../images/week1/varn/img1.jpg");background-size: cover;
 }
