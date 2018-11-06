@@ -4,7 +4,7 @@
 html,body{
 margin:0;
 width: 100%;
-height: 395%; /* orginially 350% */
+height: 399%; /* orginially 350% */
 display: flex;
 flex-direction: column;
 
@@ -233,6 +233,8 @@ top:15.2%;
 
 	display:flex;
 	flex-direction:column;
+	
+	overflow-y:hidden;
 }
 
 #articleTitle{width:100%;height:4%;border:1px solid sorange; display:flex;
