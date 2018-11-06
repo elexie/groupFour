@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-90%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 html,body{
 margin:0;
 width: 100%;
@@ -9,6 +18,8 @@ flex-direction: column;
 background-color:;
 }
 
+body{
+}
 #bodyOverlay{
 	width:100%;
 	height:100%;
@@ -33,12 +44,6 @@ background-color:;
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat;
-	-webkit-animation: slide 12s linear infinite;
-
-}
-@-webkit-keyframes slide {
-    from { background-position: 0 0; }
-    to { background-position: 0% 100%; }
 }
 
 #bodyDimmer{
@@ -59,6 +64,9 @@ background:pinks;
 z-index:4;
 position:relative;
 top:23%;
+
+animation: 2s ease-out 0s 1 slideInFromTop;
+
 }
 #headerWrapper{
 	height:100%;
@@ -177,6 +185,8 @@ align-text:center;
 
 	display: ;
 	text-transform: uppercase;
+
+	animation: 1.5s ease-out 0s 1 slideInFromTop;
 }
 	#span1
 	{
