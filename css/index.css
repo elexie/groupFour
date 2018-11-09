@@ -9,6 +9,11 @@
     transform: translateX(0);
   }
 }
+
+@-webkit-keyframes slideBg{
+    from { background-position: 0 0; }
+    to { background-position: 0% 100%; }
+}
 html,body{
 margin:0;
 width: 100%;
@@ -44,6 +49,7 @@ body{
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat;
+-webkit-animation: slideBg 8.5s linear infinite;
 }
 
 #bodyDimmer{
