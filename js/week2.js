@@ -35,8 +35,8 @@ function getArticle(userNum,pgCount,articleDiv){
 		   $(articleDiv).html(finalArticle);
 		   }
    }
-  //	xhttp.open("GET", "https://elexie.github.io/groupFour/json/week2.json", true);
-	 xhttp.open("GET", "../json/week2.json", true);
+  	xhttp.open("GET", "https://elexie.github.io/groupFour/json/week2.json", true);
+//	 xhttp.open("GET", "../json/week2.json", true);
    xhttp.send();
 }
 function slideArtcle()
