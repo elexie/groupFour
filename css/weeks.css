@@ -366,3 +366,9 @@ iframe
 {
   color: steelblue;
 }
+/*week2*/
+#w2mun1
+{background-repeat: no-repeat;background-position: center;background-image:url("../images/week2/mun/img1.png");background-size: contain;  }
+#w2Varn1{}
+#w2Varn2{}
+#w2Varn3{}
