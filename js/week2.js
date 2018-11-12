@@ -8,16 +8,12 @@ function getArticle(userNum,pgCount,articleDiv){
            theArticle=JSON.parse(xhttp.responseText);//stores the entire article
 					 finalArticle=""
 						if(userNum==0){//elexie Munyeneh
-						//	console.log("lexie\n")
-						//	console.log(theArticle.mun[0]["1"])
 							for(x=0;x<pgCount;x++)
 							{
 							finalArticle+=theArticle.mun[0][x.toString()]
 							}
 						}
 						if(userNum==1){//nathaniel nietz
-							// console.log("Neitz\n")
-							// console.log(theArticle.nei)
 							for(x=0;x<pgCount;x++)
 							{
 							finalArticle+=theArticle.nei[0][x.toString()]
@@ -25,16 +21,12 @@ function getArticle(userNum,pgCount,articleDiv){
 
 						}
 						if(userNum==2){//makr varney
-							// console.log("varn\n")
-							// console.log(theArticle.varn)
 							for(x=0;x<pgCount;x++)
 							{
 							finalArticle+=theArticle.varn[0][x.toString()]
 							}
 						}
 						if(userNum==3){//tyler winkler
-							// console.log("win\n")
-							// console.log(theArticle.win)
 							for(x=0;x<pgCount;x++)
 							{
 							finalArticle+=theArticle.win[0][x.toString()]
