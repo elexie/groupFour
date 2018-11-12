@@ -77,8 +77,8 @@ function animateWidth(incomingSlide)
 
 $(document).ready(function(){
 	slideArtcle();
-  getArticle(0,4,"#munTextDiv")
-	getArticle(1,8,"#neiTextDiv")
-	getArticle(2,4,"#varTextDiv")
-	getArticle(3,4,"#winTextDiv")
+  getArticle(0,6,"#munTextDiv")
+	getArticle(1,2,"#neiTextDiv")
+	getArticle(2,11,"#varTextDiv")
+	getArticle(3,2,"#winTextDiv")
 });
