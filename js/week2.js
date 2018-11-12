@@ -80,5 +80,5 @@ $(document).ready(function(){
   getArticle(0,6,"#munTextDiv")
 	getArticle(1,2,"#neiTextDiv")
 	getArticle(2,11,"#varTextDiv")
-	getArticle(3,7,"#winTextDiv")
+	getArticle(3,6,"#winTextDiv")
 });
