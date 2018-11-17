@@ -7,11 +7,30 @@ function getArticle(userNum,pgCount,articleDiv){
 
            theArticle=JSON.parse(xhttp.responseText);//stores the entire article
 					 finalArticle=""
-					 authors = ["mun","nei","varn","win"]
-					 authorName=authors[userNum]
-					 for(x=0;x<pgCount;x++)
-					 {
-					 finalArticle+=theArticle.authorName[0][x.toString()]
+					 if(userNum==0){//elexie Munyeneh
+						 for(x=0;x<pgCount;x++)
+						 {
+						 finalArticle+=theArticle.mun[0][x.toString()]
+						 }
+					 }
+					 if(userNum==1){//nathaniel nietz
+						 for(x=0;x<pgCount;x++)
+						 {
+						 finalArticle+=theArticle.nei[0][x.toString()]
+						 }
+
+					 }
+					 if(userNum==2){//makr varney
+						 for(x=0;x<pgCount;x++)
+						 {
+						 finalArticle+=theArticle.varn[0][x.toString()]
+						 }
+					 }
+					 if(userNum==3){//tyler winkler
+						 for(x=0;x<pgCount;x++)
+						 {
+						 finalArticle+=theArticle.win[0][x.toString()]
+						 }
 					 }
 		   $(articleDiv).html(finalArticle);
 		   }
