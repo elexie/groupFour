@@ -23,10 +23,12 @@
 		"12":"<div id=\"worksCited\"><p class=\"worksP\">Works Cited</p> <p>Fig. 1 \"CSM or CSPO\". https://d2o2utebsixu4k.cloudfront.net/media/uploads/2017/02/CSM-or-CSPO.png.</p> <p>Fig. 2. \"PMI-ACP Requirements\" https://www.whizlabs.com/wp-content/uploads/2014/04/pmi-acp.png.</p> <p>O’Callaghan, Alan. \"Should I Pursue Certified Scrum Product Owner (CSPO) Certification?\" Learning Tree Blog, 14 July 2015, blog.learningtree.com/should-i-pursue-cspo-certification/.</p> <p>Smartsheet.\"Everything You Need to Know About Becoming a Certified Scrum Master.\" Smartsheet, 26 July 2018, www.smartsheet.com/everything-you-need-know-about-becoming-certified-scrum-master.</p>"
 	}],
 	"varn": [{
-		"0": "<p>t amet posuere turpis.</p>",
-		"1": "<p>imperdiet.</p>",
-		"2": "<p>N Mauris malesuada</p>",
-		"3": "<p>placerat neque.</p>"
+		"0": "<p>The roles of the Scrum Master and Project Manager often are thought to be the same. However, this is untrue as each have their own distinct jobs. “If anything, the Product Owner role is most closely aligned with the Project Manager role.”(codeenigma). Let’s look at where the two roles overlap as well as differentiate.</p>",
+		"1": "<div id=\"w3Varn1\" class=\"anImage\"></div><span class=\"imgCap\"></span>",
+		"2": "<div id=\"twoDuties\">  <div class=\"aDuty\">Scrum Master Duties<br>Coaches Product Owner<br> Monitors Progress of Sprint<br>Promotes Communication<br>  Sprint Planning<br>Scheduling Daily Scrum Meetings<br>Assisting with Product Backlog<br>  Improve Team Dynamics<br></div> <div class=\"aDuty\">Project Manager Duties<br>Manages Budget<br>Manages Risk<br>Allocates Tasks<br> Prioritizes Features<br>Defining Project Scope<br>Gathering Requirements<br>Assuring Quality</div>  </div>",
+		"3": "<div id=\"w3Varn2\" class=\"anImage\"></div>",
+		"4":"<p style=\"font-weight:bold;\">Where The Roles Overlap</p><ul> <li>Both roles act as the ‘glue’ of the team. They facilitate communication and help the team with their tasks.</li> <li>Neither role is in charge. The clients, stakeholders, and Product Owners reserve the authority.</li>  <li>Both positions must be highly skilled and be great team players.</li>  <li>Both positions are there to facilitate the project.</li></ul>",
+		"5":"<div id=\"worksCited\"><p class=\"worksP\">Works Cited</p> <p>A Scrum Master is NOT a Project Manager. (n.d.). Retrieved November 13, 2018.https://www.codeenigma.com/community/blog/scrum-master-not-project-manager</p> <p>Carr, K., & Agarwal, S. (2018, February 27). Scrum Master vs. Project Manager: Differences and Similarities.November 13, 2018.https://www.knowledgehut.com/blog/agile/diferrences-similarities-scrum-master-project-manager</p> <p>Frederico, A. (n.d.). What's the Difference Between a Project Manager and a Scrum Master?November 13, 2018, from https://www.solstice.com/fwd/whats-the-difference-between-a-project-manager-and-a-scrum-master</p> <p>Scrum Master Versus Project Manager Differences and Similarities. (n.d.). November 13, 2018.https://www.sprintzeal.com/blog/training/scrum-master-versus-project-manager-differences-and-similarities</p>"
 	}],
 	"win": [{
 		"0": "<p>t amet posuere turpis.</p>",
