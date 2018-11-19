@@ -384,6 +384,6 @@ iframe
 #w3Nei2{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/nei/img2.jpg");background-size: contain;}
 
 #w3Varn1{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/varn/img1.jpg");background-size: contain;}
-#w3Varn2{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/varn/img2.png");background-size: contain;}
+#w3Varn2{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/varn/img2.png");background-size: contain; position: relative; top:; bottom:;}
 #twoDuties{border:1px solid oranges; width:80%; position:relative;left:12%;height:;display: flex;flex-direction: row; justify-content: space-around;}
 .aDuty{border:1px solid pinks}
