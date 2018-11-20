@@ -391,4 +391,4 @@ iframe
 #w3Win1{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/win/img1.jpg");background-size: contain;}
 #w3Win2{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/win/img2.jpg");background-size: contain;}
 #w3Win3{background-repeat: no-repeat;background-position: center;background-image:url("../images/week3/win/img3.jpg");background-size: contain;}
-#w3Win3Title{font-size:.2em;}
+.winWorksCited3 p{font-size:.68em; color:;}
