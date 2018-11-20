@@ -52,8 +52,7 @@ function slideArtcle()
   $("#var").click(function(){
     animateWidth(3);
   });
-
-  $("#win").click(function(){
+$("#win").click(function(){
     animateWidth(4);
   });
 }
