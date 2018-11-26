@@ -79,5 +79,5 @@ $(document).ready(function(){
   getArticle(0,6,"#munTextDiv")
 	getArticle(1,11,"#neiTextDiv")
 	getArticle(2,7,"#varTextDiv")
-	getArticle(3,11,"#winTextDiv")
+	getArticle(3,10,"#winTextDiv")
 });
