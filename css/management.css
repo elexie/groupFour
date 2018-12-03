@@ -208,3 +208,16 @@ line-height:1.8; font-size:1.2em; color:rgba(0,0,0,.84);}
 {
     text-indent: 40%;
 }
+
+/*image*/
+#img{
+ background-repeat: no-repeat;background-position: center;background-image:url("../images/apollo.jpg");background-size: contain;
+}
+.anImage
+{
+    border:1px solid syellow;
+    width: 78%;
+    height:10%;
+    position: relative;
+    left: 14%;
+}
