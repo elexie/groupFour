@@ -22,6 +22,7 @@ function getArticle(){
 		   pg11=theArticle["11"];
 		   pg12=theArticle["12"];
            pg13=theArticle["13"];
+             pg14=theArticle["14"];
 		   // console.log(pg1);
 		   // console.log(pg2);
 		   // console.log(pg3);
@@ -30,7 +31,7 @@ function getArticle(){
 		   // console.log(pg6);
 		   // console.log(pg7);
 
-		   finalArticle=pg1+pg2+pg3+pg4+pg5+pg6+pg7+pg8+pg9+pg10+pg11+pg12+pg13;
+		   finalArticle=pg1+pg2+pg3+pg4+pg5+pg6+pg7+pg8+pg9+pg10+pg11+pg12+pg13+pg14;
 
 		 //  $("#articleText").text(finalArticle);
 		   $("#articleText").html(finalArticle);
