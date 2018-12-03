@@ -216,9 +216,8 @@ line-height:1.8; font-size:1.2em; color:rgba(0,0,0,.84);}
 }
 .anImage
 {
-    border:1px solid syellow;
     width: 78%;
-    height:30%;
+    height:20%;
     position: relative;
     left: 14%;
 }
