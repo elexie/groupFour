@@ -64,6 +64,7 @@ overflow: hidden;
 a
 {
 text-decoration:none;
+color:inherit;
 }
 #initial{
 color: white;
@@ -217,7 +218,7 @@ line-height:1.8; font-size:1.2em; color:rgba(0,0,0,.84);}
 {
     border:1px solid syellow;
     width: 78%;
-    height:10%;
+    height:20%;
     position: relative;
     left: 14%;
 }
