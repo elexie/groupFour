@@ -198,7 +198,17 @@ function showWeeks()
 	 });
 
 }
-
+function showNames()
+{
+    $("#team,#nameDrop").mouseenter(function(){
+                                           $("#nameDrop").stop().slideDown();
+                                           });
+    $("#team,#nameDrop").mouseleave(function(){
+                                           $("#nameDrop").stop().slideUp();
+                                           });
+    
+}
 $(document).ready(function(){
 	showWeeks();
+    showNames();
 });
