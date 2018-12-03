@@ -61,6 +61,10 @@ justify-content: center;
 align-items: center;
 overflow: hidden;
 }
+a
+{
+text-decoration:none;
+}
 #initial{
 color: white;
 background: dimgray;
